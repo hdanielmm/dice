@@ -1,11 +1,11 @@
 .container {
-  width: 70;
+  width: 70%;
   margin: auto;
   text-align: center;
 }
 
 .dice {
-  text-align: center;
+  /* text-align: center; */
   display: inline-block;
 }
 
@@ -13,15 +13,15 @@ body {
   background-color: #393E46;
 }
 
-h1 {
+ h1 {
   font-family: 'Lobster', cursive;
   font-size: 8rem;
   color: #4ECCA3;
-  margin: 30px;
   text-shadow: 5px 0 #232931;
+  margin: 30px;
 }
 
-p {
+p, a {
   font-size: 2rem;
   color: #4ECCA3;
   font-weight: 700;
