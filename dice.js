@@ -1,9 +1,9 @@
-var player1 = Math.floor(Math.random() * 6) + 1;
-var player2 = Math.floor(Math.random() * 6) + 1;
+var player1 = Math.floor(Math.random() * 12) + 1;
+var player2 = Math.floor(Math.random() * 12) + 1;
 
 while (player1 === player2) {
-  var player1 = Math.floor(Math.random() * 6) + 1;
-  var player2 = Math.floor(Math.random() * 6) + 1;
+  var player1 = Math.floor(Math.random() * 12) + 1;
+  var player2 = Math.floor(Math.random() * 12) + 1;
 }
 
 var randomImageSource1 = "img/dice" + player1 + ".png";
